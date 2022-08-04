@@ -27,5 +27,12 @@ def multiplicacion(num1,num2):
     resultado = num1 * num2
     return resultado
 
-resp = multiplicacion(8,10)
+def division(num1,num2):
+    try:
+        respuesta = num1/num2
+        return respuesta
+    except Exception  as e:
+        raise 'Se está dividiendo por 0, por favor cambie los argumentos'
+
+resp = division('santiago',1)
 print(resp)
