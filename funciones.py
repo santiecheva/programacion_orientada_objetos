@@ -36,3 +36,12 @@ def division(num1,num2):
 
 resp = division('santiago',1)
 print(resp)
+
+def es_par(numero) -> bool:
+    """
+        esta función me indica si el numero que estoy evaluando es par o no.
+    """
+    if(numero % 2 == 0):
+        return True
+    else:
+        return False 
