@@ -41,7 +41,7 @@ def es_par(numero) -> bool:
     """
         esta función me indica si el numero que estoy evaluando es par o no.
     """
-    if(numero % 2 == 0):
+    if numero % 2 == 0:
         return True
     else:
         return False 
