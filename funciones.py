@@ -32,7 +32,7 @@ def division(num1,num2):
         respuesta = num1/num2
         return respuesta
     except Exception  as e:
-        raise 'Se está dividiendo por 0, por favor cambie los argumentos'
+        raise f'Se está dividiendo por 0, por favor cambie los argumentos: {e}'
 
 resp = division('santiago',1)
 print(resp)
